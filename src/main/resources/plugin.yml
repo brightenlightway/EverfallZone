@@ -1,0 +1,17 @@
+
+name: EverZones
+version: 1.0.0
+main: com.everfall.everzones.EverZones
+api-version: '1.21'
+author: Everfall
+description: Persistent PvPZone and SafeZone management for Everfall
+commands:
+  pvpzone:
+    description: Manage PvP zones
+    usage: /pvpzone <wand|list|delete>
+  safezone:
+    description: Manage Safe zones
+    usage: /safezone <wand|list|delete>
+permissions:
+  everzones.admin:
+    default: op
